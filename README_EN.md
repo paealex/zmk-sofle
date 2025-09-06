@@ -25,5 +25,3 @@ For 3D printed model files or any issues and malfunctions with the keyboard, ple
 ## Sofle Keymap
 
 ![Sofle键位图](keymap-drawer/eyelash_sofle.svg)
-
-test1
