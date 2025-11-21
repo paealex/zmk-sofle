@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - '&MINUS'
+  - {t: '-', s: _}
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - '&LEFT_BRACKET'
+  - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -328,5 +328,5 @@ layers:
 combos:
 - p: [11, 12]
   k: {h: '=', s: +}
-- p: [23, 24]
+- p: [24, 25]
   k: {t: ']', s: '}'}
