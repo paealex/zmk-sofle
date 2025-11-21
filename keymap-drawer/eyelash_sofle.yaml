@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - '&td1'
+  - '&MINUS'
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - '&td0'
+  - '&LEFT_BRACKET'
   - $$mdi:apple-keyboard-control$$
   - A
   - S
@@ -326,5 +326,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [14, 28, 40]
-  k: '&soft_off'
+- p: [11, 12]
+  k: {h: '=', s: +}
+- p: [23, 24]
+  k: {t: ']', s: '}'}
